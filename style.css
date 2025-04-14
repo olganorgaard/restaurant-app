@@ -1,0 +1,374 @@
+body{
+    
+    font-weight: 100;
+  }
+  /*Header and main section*/
+  .content{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 180px;
+  }
+  span{
+      color: #50B478;
+  }
+  nav{
+      background-color: #50B478;
+  }
+  .home{
+      margin-top: 100px;
+      display: flex;
+      justify-content: space-around;
+  }
+  .titleMain{
+      font-size: 60px;
+      font-family: "Roboto", serif;
+      
+  }
+  .button_order, .buttonMenu{
+          color: #040000;
+      }
+  .buttonMenu{
+      font-family: "Roboto", serif;
+      font-weight: 500;
+      border: 3px solid #50B478;
+      border-radius: 40px;
+      background-color: white;
+      margin-top: 70px;
+      padding: 10px 85px;
+      font-size: 22px;
+  }
+  .buttonMenu:hover{
+      background-color: #50B478;
+      color: white;
+  }
+  #main_menu:hover{
+      text-decoration: underline;
+  }
+  .mb-1:hover{
+      text-decoration: underline;
+  }
+  /*Quote section*/
+  .quote-block {
+      background:linear-gradient(rgba(255,255,255,.7),rgba(255,255,255,.7)), url(https://cdn.glitch.global/1cd2e74d-e33a-4bdc-84eb-7d2786530275/coverImage.jpg?v=1735541240095) no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      min-height: 25vh;
+      padding:1rem 10%;
+      padding-top: 8.5rem;
+  }
+  .quote {
+      display: flex;
+      justify-content: center;
+  }
+  .quote-text {
+      font-family: "Roboto", serif;
+      font-size: 28px;
+      line-height: 2;
+      font-weight: 500;
+      text-align: center;
+      padding: 0 10% 5%;
+  }
+  /*About us*/
+  .aboutTitle{
+      display: flex;
+      justify-content: center;
+      padding-top: 50px;
+  }
+  .aboutImage{
+      padding-bottom: 150px; 
+  }
+  .aboutImage > img{
+      border-radius: 1rem;
+      width: 700px;       
+  }
+  .about{
+      display: flex;
+      justify-content: space-around;
+      font-family: "Roboto", serif;
+      margin: 50px;
+  }
+  .contentAbout{
+      font-size: 25px;
+      padding: 50px;
+  }
+  .aboutItems{
+      display: flex;
+      justify-content: space-around;
+      margin-top: 50px;
+  }
+  .aboutItemsDetails{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  /*MENU*/
+  .menu{
+      background:linear-gradient(rgba(255,255,255,.7),rgba(255,255,255,.7)), url(https://cdn.glitch.global/1cd2e74d-e33a-4bdc-84eb-7d2786530275/coverImage.jpg?v=1735541240095) no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      min-height: 25vh;
+      padding:1rem 10%;
+      padding-top: 70px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  .imgMenu{
+      width: 100%;
+      background-color: #c9f8dc;
+      
+  }
+  .menuTitle{
+      font-size: 40px;
+      font-family: "Roboto", serif;
+      margin-bottom: 20px;
+  }
+  /*Gallery*/
+  .gallery{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 70px;
+  }
+  .imgContainer{
+      display: flex;
+      flex-wrap: wrap;
+      width: 1230px;
+  }
+  .img > img{
+      margin: 15px;
+      border: 2px solid black;
+      cursor: pointer;
+      border-radius: 1rem;
+  }
+  .img > img:hover{
+      transform: scale(1.1);
+  }
+  /*pop-up display*/
+  .gallery .popup-image {
+      position: fixed;
+      top: 0;
+      left: 0;
+      background: rgba(0,0,0,.9);
+      height: 100%;
+      width: 100%;
+      z-index: 100;
+      display: none;
+  }
+  
+  .gallery .popup-image span {
+      position: absolute;
+      top: 10%;
+      right: 10%;
+      font-size: 60px;
+      font-weight: bolder;
+      color: #ffffff;
+      cursor: pointer;
+      z-index: 100;
+  }
+  
+  .gallery .popup-image img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border: 3px solid #ffffff;
+      border-radius: 5px;
+      width: 50%;
+      object-fit:cover ;
+  }
+  
+  /*Book a table*/
+  .order{
+      background:linear-gradient(rgba(255,255,255,.7),rgba(255,255,255,.7)), url(https://cdn.glitch.global/1cd2e74d-e33a-4bdc-84eb-7d2786530275/coverImage.jpg?v=1735541240095) no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      min-height: 25vh;
+      padding:1rem 10%;
+      padding-top: 70px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  
+  .order .row_order{
+      display: flex;
+      background:#ffffff;
+      margin:30px 70px;
+      overflow: hidden;
+      box-shadow: 0 .5rem 1rem rgba(0,0,0,.3);
+      border-radius: 1rem;
+  }
+  
+  .order .row_order .image{
+      flex:1 1 50%;
+  }
+  
+  .order .row_order .image img{
+      height:100%;
+      width:100%;
+      object-fit: cover;
+  }
+  
+  .order .row_order form{
+      flex:1 1 50%;
+      background:#ffffff;
+      padding:40px;
+  }
+  
+  .order .row_order form .box{
+      padding:10px;
+      margin:10px 0;
+      font-size: 16px;
+      border: none;
+      text-transform: none;
+      background:#f0f0f0;
+      width:100%;
+  }
+  
+  .order .row_order form .box::placeholder{
+      text-transform: capitalize;
+  }
+  
+  
+  .button_order{
+      font-family: "Roboto", serif;
+      font-weight: 500;
+      border: 3px solid #50B478;
+      border-radius: 40px;
+      background-color: white;
+      margin-top: 70px;
+      padding: 10px 85px;
+      font-size: 20px;
+  }
+  
+  .button_order:hover{
+      background:#50B478;
+      color: white;
+  }
+  
+  /*Footer*/
+  footer{
+      background-color: #50B478;
+      margin-top: 30px;
+  }
+  #subscribe{
+      font-family: "Roboto", serif;
+      padding: 10px 20px;
+      background-color: #ffffff;
+      border-radius: 40px;
+      border: 1px solid #50B478;
+      font-weight: bold;
+  }
+  
+  #subscribe:hover{
+      background-color: #50B478;
+      border: 1px solid white;
+      color: white;
+  }
+  .bi-facebook, .bi-instagram, .bi-twitter{
+      width: 30px;
+      height: 30px;
+    margin-right: 12px;
+  }
+  @media all and (max-width:1200px){
+      .home{
+          flex-direction: column;
+          align-items: center;
+      }
+      .about{
+          flex-direction: column;
+          align-items: center;
+      }
+      .imgContainer{
+          flex-wrap: wrap;
+          justify-content: center;
+          width: 100%;
+      }
+      .aboutImage > img{
+          border-radius: 1rem;
+          width: 350px;   
+      }
+      .aboutImage{
+          padding-bottom: 30px; 
+      }
+      .image > img{
+          width: 300px;
+          
+      }
+      .content{
+          padding: 50px;
+      }
+      .titleMain{
+          font-size: 45px;}
+      .img > img{
+          width: 300px;
+          height: 200px;
+      }
+      .contentAbout{
+          font-size: 20px;
+          padding: 20px;
+      }
+      .quote-text {
+          font-family: "Roboto", serif;
+          font-size: 25px;
+          line-height: 1.5;
+          font-weight: 500;
+      }
+  .quote-block {
+      background:linear-gradient(rgba(255,255,255,.7),rgba(255,255,255,.7)), url(https://cdn.glitch.global/1cd2e74d-e33a-4bdc-84eb-7d2786530275/coverImage.jpg?v=1735541240095) no-repeat;
+      background-size: cover;
+      background-position: center;
+  }
+  }
+  @media all and (max-width:500px){
+      .home{
+          flex-direction: column;
+          align-items: center;
+      }
+        .home, .quote-block, .aboutMain, .menu, .gallery, .order{
+          overflow: hidden;
+      }
+      .about{
+          flex-direction: column;
+          align-items: center;
+      }
+      .imgContainer{
+          flex-direction: column;
+          align-items: center;
+          width: 100%;
+      }
+      .aboutImage > img{
+          border-radius: 1rem;
+          width: 350px;   
+      }
+      .aboutImage{
+          padding-bottom: 30px; 
+      }
+      .image > img{
+          width: 300px;
+      }
+      .content{
+          padding: 50px;
+      }
+      .titleMain{
+          font-size: 45px;}
+      .img > img{
+          width: 300px;
+      }
+      .contentAbout{
+          font-size: 20px;
+          padding: 20px;
+      }
+      .quote-text {
+          font-family: "Roboto", serif;
+          font-size: 25px;
+          line-height: 1.5;
+          font-weight: 500;
+      }
+  }
+  
