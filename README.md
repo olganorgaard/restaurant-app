@@ -1,7 +1,7 @@
 <h1>🍽️📱🍲  Restaurant app</h1>
 <p>Restaurant App is a sleek and user-friendly platform where you can browse menus, explore dishes, and make reservations—all in one place!</p>
 <br><h2> 🚀 Live Demo </h2>
-<p>Check it out live here: <a href="https://restaurant-freshiy-app.glitch.me/">https://restaurant-freshiy-app.glitch.me/</a> </p>
+<p>Check it out live here: <a href="https://freshiy-restaurant.netlify.app/">https://freshiy-restaurant.netlify.app/</a> </p>
 <br><h2> 📌 Setup Instructions </h2>
 
 1. Clone the repository:
