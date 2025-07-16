@@ -50,7 +50,7 @@ body{
   }
   /*Quote section*/
   .quote-block {
-      background:linear-gradient(rgba(255,255,255,.7),rgba(255,255,255,.7)), url(https://cdn.glitch.global/1cd2e74d-e33a-4bdc-84eb-7d2786530275/coverImage.jpg?v=1735541240095) no-repeat;
+      background:linear-gradient(rgba(255,255,255,.7),rgba(255,255,255,.7)), url(img/coverImage.webp) no-repeat;
       background-size: cover;
       background-position: center;
       background-attachment: fixed;
@@ -105,7 +105,7 @@ body{
   }
   /*MENU*/
   .menu{
-      background:linear-gradient(rgba(255,255,255,.7),rgba(255,255,255,.7)), url(https://cdn.glitch.global/1cd2e74d-e33a-4bdc-84eb-7d2786530275/coverImage.jpg?v=1735541240095) no-repeat;
+      background:linear-gradient(rgba(255,255,255,.7),rgba(255,255,255,.7)), url(img/coverImage.webp) no-repeat;
       background-size: cover;
       background-position: center;
       background-attachment: fixed;
@@ -183,7 +183,7 @@ body{
   
   /*Book a table*/
   .order{
-      background:linear-gradient(rgba(255,255,255,.7),rgba(255,255,255,.7)), url(https://cdn.glitch.global/1cd2e74d-e33a-4bdc-84eb-7d2786530275/coverImage.jpg?v=1735541240095) no-repeat;
+      background:linear-gradient(rgba(255,255,255,.7),rgba(255,255,255,.7)), url(img/coverImage.webp) no-repeat;
       background-size: cover;
       background-position: center;
       background-attachment: fixed;
@@ -320,7 +320,7 @@ body{
           font-weight: 500;
       }
   .quote-block {
-      background:linear-gradient(rgba(255,255,255,.7),rgba(255,255,255,.7)), url(https://cdn.glitch.global/1cd2e74d-e33a-4bdc-84eb-7d2786530275/coverImage.jpg?v=1735541240095) no-repeat;
+      background:linear-gradient(rgba(255,255,255,.7),rgba(255,255,255,.7)), url(img/coverImage.webp) no-repeat;
       background-size: cover;
       background-position: center;
   }
